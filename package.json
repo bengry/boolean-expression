@@ -1,0 +1,30 @@
+{
+  "name": "boolean-expression",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "main": "./dist/boolean-expression.umd.cjs",
+  "module": "./dist/boolean-expression.js",
+  "types": "./index.d.ts",
+  "exports": {
+    "types": "./index.d.ts",
+    "import": "./dist/boolean-expression.js",
+    "require": "./dist/boolean-expression.umd.cjs"
+  },
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^3.2.5",
+    "vitest": "^0.25.4",
+    "yarn-deduplicate": "^6.0.0"
+  }
+}
