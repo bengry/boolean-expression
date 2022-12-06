@@ -59,7 +59,6 @@ describe(`BooleanExpression`, () => {
   });
 });
 
-// Simple helper functions to test `BooleanExpression` with.
+/** Simple helper functions to test `BooleanExpression` with. **/
 
 const isPositive = (n: number) => n > 0;
-const isNegative = (n: number) => n < 0;
